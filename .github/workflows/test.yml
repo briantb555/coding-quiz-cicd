@@ -21,6 +21,9 @@ jobs:
         - name: Install dependencies
           run: npm install
 
+        - name: Start mongodb
+          run: docker run -d -p 27017:27017 mongo
+
         - name: Run Build
           run: npm run build
 
