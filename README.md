@@ -32,7 +32,7 @@ This is a test with questions regarding Python and coding concepts.
 
  5. Start the development server:
 
-   npm run develop
+   npm run
 
 ## Usage
 
